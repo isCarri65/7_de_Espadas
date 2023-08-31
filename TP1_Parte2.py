@@ -85,7 +85,7 @@ print(f"{valor} minutos son {horas} horas y {minutos} minutos")
 
 # Ejercicio 8
 sueldo_base = float(input("Ingrese el sueldo base: "))
-#cantidad_ventas = int(print("Ingrese cantidad de ventas:) "))
+cantidad_ventas = int(print("Ingrese cantidad de ventas: ")))
 cantidad_ventas = 3
 comision = 0.1*cantidad_ventas*sueldo_base
 sueldo_total = sueldo_base + comision
