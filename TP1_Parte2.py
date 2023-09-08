@@ -85,7 +85,6 @@ print(f"{valor} minutos son {horas} horas y {minutos} minutos")
 
 # Ejercicio 8
 sueldo_base = float(input("Ingrese el sueldo base: "))
-cantidad_ventas = int(print("Ingrese cantidad de ventas: ")))
 cantidad_ventas = 3
 comision = 0.1*cantidad_ventas*sueldo_base
 sueldo_total = sueldo_base + comision
@@ -195,9 +194,8 @@ print(f"El dia de tu nacimiento es: {dia}/{mes}/{año}")
 
 #Ejercicio 20
 fecha = ""
-fecha = input("Día de Nacimiento: ")
-fecha += input("Mes de Nacimiento: ")
-fecha += input("Año de Nacimiento: ")
+fecha = str(input("Ingrese fecha de nacimiento en formato DDMMAAAA: "))
+fecha = fecha[0:2]+"/"+fecha[2:4]+"/"+fecha[4:]
 print(f"Fecha: {fecha}")
 
 
